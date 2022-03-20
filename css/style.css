@@ -26,7 +26,6 @@
 }
 
 .logo {
-  float: left;
   height: 120px;
   font-size: x-large;
   text-align: end;
@@ -35,7 +34,6 @@
 }
 
 .menu {
-  float: left;
   font-weight: bold;
   height: 120px;
   padding-top: 55px;
@@ -43,9 +41,20 @@
 }
 
 .member {
-  float: left;
   height: 120px;
   padding-top: 45px;
+}
+
+.flexbox-container-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+}
+
+.flexbox-item-menu {
+  display: flex;
+  background-color: aqua;
 }
 
 ul li {
